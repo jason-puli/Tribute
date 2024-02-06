@@ -1,0 +1,112 @@
+header{
+    background-color: hsla(67, 14%, 89%, 0.822);
+}
+img {
+    max-width: 25%;
+    height: auto;
+    display: block;
+     margin: 0 auto; /* This will center the image horizontally */
+} 
+body{
+    background-color: beige;
+}
+p{
+    font-family: monospace;
+    margin: 5px;
+    margin-top: 7px;
+    margin-bottom: 11px;
+    font-size: 8px;
+    padding-left: 5px;
+}
+h5{
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* margin-left: 5px; */
+    padding-left: 5px;
+}
+h4{
+    color: rgb(18, 124, 131);
+    text-shadow: 5px;
+    text-align: center;
+}   
+section{
+    margin-left: 80px;
+    margin-right: 80px;
+    border: solid  black; 
+    box-shadow: 5px 5px 5px grey;  
+    /* padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px; */
+}
+/* colors */
+/*Named colors ex: red, blue green, yellow, etc., 
+in CSS we have approx 147 colors
+Hexadecimal colors #______ #rrggbb
+What is a pixel?
+A combination of led in a Screen is  called a Pixel. It’s just a tiny square box that contains three amounts of light –
+Pixel is a smallest unit of a digital display
+What is a resolution?
+1680 x 1050
+width and  height  of a pixel
+
+One pixel is combined with three led colors (red, green, blue)
+
+
+*/
+/* Hex Colors
+
+What is decimal number system
+deci means 10 the numebrs are 0-9
+Binary means 2 the numbers 01
+Hexadecimal  means 16 the numbers 0-9 A-F
+
+Decimal counting 
+00 01 02 03 04 05 06 07 08 09 
+10 11 12 13 14 15 16 17 18 19 
+20 21 22 23 24 25 26 27 28 29 
+.....
+90 91 92 93 94 95 96 97 98 99   
+Total numeber of combinations =  10 * 10 + 10 =  100
+
+Hexa decimal counting 
+Decimal counting  uses 10 as its base.
+
+HexaDecimal counting
+uses 16 as its base.
+00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+Total  number of combinations= 16 * 16 = 256
+ 
+
+leD LOW VALUE  COLORS 00
+Led High Value  Color FF
+
+If i wnt only Red 
+Red LED ONLY FF0000
+Blue Led Only  00FF00
+Green Led Only  0000FF
+
+
+RGB
+RGB( , , )
+RGB(0-255, 0-255, 0-255)
+
+HSL
+Hue : 0 - 360
+Saturation :  0 - 100%
+lightness : 0 - 100%
+
+*/
+/* p{
+    color:#FF0000;
+    color:#00FF00;
+    color:#0000FF;
+
+    color:rgb(194, 147, 147);
+    color:rgba(red, green, blue, alpha);
+    /* alpha or opacity */
+   /* color:rgba(250, 150, 78, 0.774);
+    color: hsl(240, 50%, 80%);
+
+} */
